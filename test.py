@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 __author__ = 'Alienware'
 
-# 豆瓣网站数据可视化
-
 import urllib.request
 from bs4 import BeautifulSoup                            # 从bs4引入BeautifulSoup
 from pyecharts import Page, Pie, Bar

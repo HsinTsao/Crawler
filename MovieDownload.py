@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 __author__ = 'Alienware'
 
-# 网站迅雷链接爬虫
-
 import urllib.request
 from bs4 import BeautifulSoup        # 从bs4引入BeautifulSoup
 import csv
@@ -99,6 +97,9 @@ if __name__ == '__main__':
         time.sleep(5)
 
     saveCvs(allherf)
+
+
+
 
 
 
