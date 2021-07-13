@@ -17,7 +17,7 @@ webMini = 82300
 
 
 def getHtml(webNum):
-    url = "https://www.acy98.com/shipin/" + str(webNum) + ".html"
+    url = "https://" + str(webNum) + ".html"   # 出于安全考虑 删除网址和结果，而每个网站的结构不同，此爬虫也不能提供接口做通用。因此只做练习使用
     user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
     headers = { 'User-Agent' : user_agent }
 
